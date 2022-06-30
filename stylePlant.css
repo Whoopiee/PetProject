@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+ 
+@keyframes example{
+  0%{color:red}
+  25%{color:green}
+  50%{color:blue}
+  75%{color:pink}
+  100%{color:red}
+}
+
+@keyframes cub{
+  0%{color:red}
+  25%{color:green}
+  50%{color:blue}
+  75%{color:pink}
+  100%{color:red}
+}
+
+ html, body{
+   margin: 0 0;
+   padding: 0;
+   background-color:#EFEFEF;
+ }
+ 
+ body{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 100;
+ }
+ 
+ h2{
+  text-align: center;
+ }
+
+#navStyle{
+  background-color: #ffffff;
+  border: 1px solid black;
+  overflow: hidden;
+  margin: 0%;
+  font-family:'PT Serif',serif ;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+#navStyle a{
+  text-decoration: none;
+  /*color:#A4A4A4;*/
+  color:black ;
+  float:left;
+  padding: 12px;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+#navStyle a:hover{
+  opacity: 1;
+}
+
+#mainH{
+  text-align: center;
+}
+
+#secH{
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+#animation{
+  height: 50px;
+  width: 50px;
+  /*border-radius:0px;*/
+
+  margin: 0 auto;
+  background-color:rgb(46, 8, 56);
+}
+
+#parent{
+  margin: auto;
+  width: 900px;
+  height: 200px;
+}
